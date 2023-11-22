@@ -1,0 +1,165 @@
+body{
+    background-color: grey;
+
+}
+.Head{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: -90px;
+}
+.head{
+    border: 4px solid red;
+    border-radius: 15px;
+    background-color: white;
+    color: purple;
+    font-style: italic;
+    text-align: center;
+    width: 200px;    
+    padding-left: 70px;
+    padding-right: 70px;
+    box-shadow: 7px 7px rgba(133, 1, 133, 0.61);
+}
+.main{
+    border: 10px solid green; 
+    height: 500px;
+    position: relative;    
+}
+
+
+#main1{
+    width: 200px;
+    height:fit-content;
+    border: 4px solid red;
+    border-radius: 15px;
+    background-color: white;
+    color: purple;
+    font-style: italic;
+    text-align: center;
+    box-shadow: 7px 7px rgba(133, 1, 133, 0.61);
+    
+
+}
+#main2{
+    width: 200px;
+    height:fit-content;
+    border: 4px solid red;
+    border-radius: 15px;
+    background-color: white;
+    color: purple;
+    font-style: italic;
+    text-align: center;
+    box-shadow: 7px 7px rgba(133, 1, 133, 0.61);
+    left: 0px;
+    bottom: 0px;
+    position: absolute;
+
+}
+
+#main3{
+    width: 200px;
+    height:150px;
+    border: 4px solid red;
+    border-radius: 15px;
+    background-color: white;
+    background-image: url(./grocery.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: purple;
+    font-style: italic;
+    text-align: center;
+    box-shadow: 7px 7px rgba(133, 1, 133, 0.61);
+    right: 100px;
+    top: 0px;
+    position: absolute;
+}
+
+#main4{
+    width: 200px;
+    height:fit-content;
+    border: 4px solid red;
+    border-radius: 15px;
+    background-color: white;
+    color: purple;
+    font-style: italic;
+    text-align: center;
+    box-shadow: 7px 7px rgba(133, 1, 133, 0.61);
+    right: 100px;
+    bottom: 0px;
+    position: absolute;
+}
+.Items{
+    background-color: green;
+    border: 10px solid purple;
+    text-align: center;
+    width: 620px;
+    
+}
+.mainitems{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+#Item1{
+    background-color: rgb(255, 255, 115);
+    font-style: italic;
+    font-size: small;
+    text-align: center;
+    margin-left: 5px;
+    width: 280px;
+       justify-content:left;
+    
+}
+#Item2{
+    background-color: rgb(255, 255, 115);
+    font-style: italic;
+    font-size: small;
+    text-align: center;
+    width: 320px;
+    margin-right: 5px;
+    justify-content:right;
+
+}
+#Item3{
+    background-color: rgb(255, 255, 115);
+    font-style: italic;
+    font-size: small;
+    text-align: center;
+    margin-left: 5px;
+    width: 625px;
+    
+}
+h4{
+    font-size: medium;
+
+}
+.stocks{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+div.Offers{
+    position: -webkit- sticky;
+    position: sticky;
+    top: 500px;
+    display: flex;
+    justify-content: center;
+
+}
+.offer{  
+background-color: rgb(12, 252, 12);
+color:red;
+width: 400px;
+border: 4px solid red;
+box-shadow: 7px 7px rgba(133, 1, 133, 0.61);
+border-radius: 15px;
+display: flex;
+justify-content: space-between;
+text-align: center;
+
+}
+.offer1{
+    padding-left: 30px;
+}
